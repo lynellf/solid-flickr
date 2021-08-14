@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "https://cdn.skypack.dev/solid-js/*": ["./node_modules/solid-js/*"]
+    }
+  }
+}
