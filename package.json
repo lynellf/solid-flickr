@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx http-server public"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "solid-js": "^1.1.0"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8"
   }
 }
